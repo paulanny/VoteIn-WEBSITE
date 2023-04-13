@@ -14,7 +14,46 @@ form    {
     flex-direction: column;
 }
 
+
+.labin      {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 10px auto;
+    width: 40%;
+}
+
+input  {
+    width: 100%;
+    padding: 7px 11px;
+}
+
 .logogangan     {
     width: 150px;
     margin: 20px auto 50px auto;
+}
+
+.loginbtn   {
+    padding: 7px 11px;
+    width: 100%;
+    background-color: #009933;
+    color: white;
+    text-decoration: none;
+}
+.loginbtn button      {
+    width: 100%;
+    background-color:transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.resetp     {
+    color: #009933;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.resetp:hover   {
+    text-decoration: underline;
 }
