@@ -1,0 +1,20 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form    {
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logogangan     {
+    width: 150px;
+    margin: 20px auto 50px auto;
+}
