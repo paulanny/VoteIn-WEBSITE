@@ -1,0 +1,136 @@
+.lines  {
+    width: 20%;
+}
+
+.postp      {
+    /* width: 75%; */
+    --bg-size: 400%;
+    background: linear-gradient(
+                  90deg,
+                  #126302,
+                  #795902,
+                  #d6d93b
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* color: white; */
+    /* font-family: "raleway", sans-serif;
+    letter-spacing: 0.08em; */
+    font-size: 60px;
+    font-weight: 800;
+    /* line-height: 140.2%; */
+    animation: move-bg 8s infinite linear;
+}
+
+@keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+
+.firstline      {
+    width: 100%;
+    background: red;
+    height: 0.3px;
+    margin-bottom: 10px;
+    animation-name: firsts;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* margin-right: 3px; */
+    transition: 1s ease-in-out;
+}
+
+@keyframes firsts {
+  
+    0% {
+      width: 100%;
+    }
+    
+    20% {
+        width: 80%;
+    }
+  
+    40% {
+        width: 60%;
+        background: rgb(9, 255, 0);
+    }
+
+    60% {
+        width: 80%;
+    }
+
+    80% {
+        width: 60%;
+        background: rgb(255, 251, 3);
+    }
+
+    100% {
+        width: 100%;
+    }
+}  
+
+
+.secondline  {
+    width: 100%;
+    background: rgb(42, 209, 0);
+    height: 0.3px;
+    margin-bottom: 10px;
+    animation-name: second;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* margin-right: 3px; */
+    transition: 1s ease-in-out;
+}
+
+@keyframes second {
+  
+    0% {
+      /* width: 100%; */
+      width: 60%;
+      background: rgb(9, 255, 0);
+    }
+    
+    20% {
+        width: 80%;
+    }
+  
+    40% {
+        width: 100%;
+        background: rgb(255, 251, 3);
+    }
+
+    60% {
+        width: 40%;
+    }
+
+    80% {
+        width: 100%;
+        background: red;
+    }
+
+    100% {
+        width: 80%;
+    }
+}  
+
+
+.thirdline  {
+    width: 100%;
+    background: rgb(255, 238, 4);
+    height: 0.3px;
+    animation-name: firsts;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* margin-right: 3px; */
+    transition: 1s ease-in-out;
+}
+
+.votesession    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+

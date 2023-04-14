@@ -56,21 +56,28 @@ input:focus {
     margin: 20px auto 50px auto;
 }
 
+.errorp     {
+    display:none;
+}
+
 .loginbtn   {
-    padding: 16px;
     width: 100%;
     background-color: #009933;
     color: white;
-    text-decoration: none;
+    border: none;
     border-radius: 8px;
+    cursor: pointer;
+    
 }
-.loginbtn button      {
+.loginbtn a    {
+    display: inline-block;
     width: 100%;
     background-color:transparent;
     color: white;
     font-size: 20px;
-    border: none;
     cursor: pointer;
+    text-decoration: none;
+    padding: 16px;
 }
 
 .resetp     {
