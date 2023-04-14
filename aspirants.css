@@ -21,6 +21,8 @@
 }
 
 
+
+
 .aspirantsimg      {
     max-width: 100%;
     border-radius: 15px;
@@ -33,7 +35,7 @@
 }
 
 .select     {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
@@ -45,4 +47,8 @@
 }
 .select img  {
     width: 50px;
+}
+
+.personone:checked .select       {
+    display: flex;
 }

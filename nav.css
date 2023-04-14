@@ -41,3 +41,13 @@ nav     {
     text-decoration: none;
     padding: 16px;
 }
+
+.labin2      {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 20px auto;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
