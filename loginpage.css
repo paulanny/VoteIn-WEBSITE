@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.allform    {
+    height: 100vh;
+    display: flex;
+}
+
 form    {
     width: 70%;
     margin: auto;
@@ -12,6 +17,8 @@ form    {
     align-items: center;
     display: flex;
     flex-direction: column;
+    border: #009933 1px solid;
+    border-radius: 15px;
 }
 
 
@@ -24,8 +31,25 @@ form    {
 
 input  {
     width: 100%;
-    padding: 7px 11px;
+    padding: 16px;
+    /* transition: 1s ease; */
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        background-color:  #ecfaf1;
+        border-radius: 8px;
 }
+
+input:focus {
+    outline: none;
+    border-bottom: #009933 2px solid;
+    background-color: #c8fdda  ;
+  }
+
+/* input:focus     {
+    border-bottom: #009933 1px solid;
+} */
 
 .logogangan     {
     width: 150px;
@@ -33,11 +57,12 @@ input  {
 }
 
 .loginbtn   {
-    padding: 7px 11px;
+    padding: 16px;
     width: 100%;
     background-color: #009933;
     color: white;
     text-decoration: none;
+    border-radius: 8px;
 }
 .loginbtn button      {
     width: 100%;
