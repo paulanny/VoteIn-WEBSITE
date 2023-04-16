@@ -77,7 +77,7 @@ input:focus {
     display:none;
 }
 
-.loginbtn   {
+/* .loginbtn   {
     width: 100%;
     background-color: #009933;
     color: white;
@@ -85,7 +85,7 @@ input:focus {
     border-radius: 8px;
     cursor: pointer;
     
-}
+} */
 .loginbtn a    {
     display: inline-block;
     width: 100%;
@@ -112,3 +112,61 @@ input:focus {
 .resetp:hover   {
     text-decoration: underline;
 }
+
+/* <!-- HTML !-->
+<button class="button-19" role="button">Button 19</button> */
+
+/* CSS */
+.loginbtn {
+  appearance: button;
+  background-color: #009933;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  text-align: center;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+  margin-top:18px ;
+}
+
+.loginbtn:after {
+  background-clip: padding-box;
+  background-color: #14c44e;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.loginbtn:main,
+.loginbtn:focus {
+  user-select: auto;
+}
+
+.loginbtn:hover {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+/* .loginbtn:{
+  cursor: auto;
+} */
