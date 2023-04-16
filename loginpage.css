@@ -1,7 +1,22 @@
+/* @font-face {
+    font-family: "Moby Andrfont";
+    src: url(C:\Users\HP\Documents\fonts\Andrfont-v5.02-EBF066469E0097C745184D8AD19711F3.ttf);
+} */
+
+
 *   {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font-family: 'Moby Andrfont' !important; */
+}
+
+
+
+body    {
+    font-family: 'Kanit', sans-serif;
+    /* font-family:'Lilita One', cursive; */
+
 }
 
 .allform    {
@@ -10,15 +25,16 @@
 }
 
 form    {
-    width: 40%;
+    width: 30%;
     margin: auto;
     padding: 40px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    border: #009933 1px solid;
+    /* border: #009933 1px solid; */
     border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
@@ -26,7 +42,7 @@ form    {
     display: flex;
     flex-direction: column;
     margin: 10px auto 10px auto;
-    width: 80%;
+    width: 100%;
 }
 
 input  {
@@ -39,6 +55,7 @@ input  {
         border-bottom-style: hidden;
         background-color:  #ecfaf1;
         border-radius: 8px;
+        font-family: 'Moby Andrfont' sans-serif;
 }
 
 input:focus {
@@ -80,10 +97,16 @@ input:focus {
     padding: 16px;
 }
 
+.labin label   {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
 .resetp     {
     color: #009933;
     text-decoration: none;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .resetp:hover   {

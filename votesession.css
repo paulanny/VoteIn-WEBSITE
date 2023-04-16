@@ -1,3 +1,13 @@
+/* @font-face {
+    font-family: "Moby Andrfont";
+    src: url(C:\Users\HP\Documents\fonts\Andrfont-v5.02-EBF066469E0097C745184D8AD19711F3.ttf);
+} */
+
+body    {
+    font-family: 'Kanit', sans-serif;
+}
+
+
 .lines  {
     width: 20%;
 }
