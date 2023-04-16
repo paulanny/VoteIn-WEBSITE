@@ -11,6 +11,16 @@
     /* font-family: 'Moby Andrfont' !important; */
 }
 
+.passshow   {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
 
 
 body    {
