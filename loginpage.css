@@ -16,6 +16,10 @@
 body    {
     font-family: 'Kanit', sans-serif;
     /* font-family:'Lilita One', cursive; */
+    background-image:url(./images/Group\ 2.svg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;       
 
 }
 
