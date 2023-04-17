@@ -89,6 +89,7 @@ input:focus {
 
 .errorp     {
     display:none;
+    font-size: 14px;
 }
 
 /* .loginbtn   {

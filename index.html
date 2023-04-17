@@ -21,21 +21,21 @@
 
                 <div class="labin">
                     <label for="password">Matric No</label>
-                    <input type="text">
-                    <p class="errorp">Oops! Seems you are not a Psychology Student</p>
+                    <input class="input" type="text" maxlength="9" id="matricno">
+                    <p class="errorp" id="errorp">Oops! Seems you are not a Psychology Student</p>
                 </div>
 
                 <div class="labin">
                     <label for="password">Password</label>
                     <div class="passshow">
-                    <input type="password" name="password" id="password" />
+                    <input class="input" type="password" name="password" id="password" />
                     <i class="bi bi-eye-slash" id="togglePassword"></i>
                     </div>
-                    <p class="errorp">Your surname is your Password</p>
+                    <p class="errorp" id="errorps">Your surname is your Password</p>
                 </div>
 
                 <div class="labin">
-                    <button class="loginbtn">
+                    <button type="submit" class="loginbtn" id="submitbtn">
                         <a href="main.html">
                             Login
                         </a>

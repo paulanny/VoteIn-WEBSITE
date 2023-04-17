@@ -1,16 +1,18 @@
 // const Aspirants = document.getElementsByClassName('.personone');
-const vote = document.querySelectorAll('.select');
-const voteSession = document.getElementById('votesession');
-const AllPeoples = document.querySelectorAll('.personone');
-function display () {
-    
-    if (vote.forEach.style.display = 'none') {
-        vote.forEach.style.display = 'flex';
-    }
-}
-AllPeoples.forEach(items => {
-    items.addEventListener('click', display);
-});
+// const vote = document.querySelectorAll('.select');
+// const voteSession = document.getElementsByClassName('votesession');
+// const AllPeoples = document.querySelector('.personone');
+// const Select = document.getElementById("select");
+
+// function display () {
+//     AllPeoples.style.border = '3px solid #009933';
+//     Select.classList.add("selection");
+// }
+
+
+// voteSession.forEach(items => {
+    // voteSession.addEventListener('click', display);
+// });
 
 
 // let element = document.getElementById('holder');
