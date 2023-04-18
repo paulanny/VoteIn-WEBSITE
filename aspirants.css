@@ -9,7 +9,7 @@
     margin-bottom: 35px;
 }
 
-.personone      {
+.person      {
     width: 30%;
     padding: 20px;
     text-align: center;
@@ -36,19 +36,23 @@
 }
 
 .select     {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-
-.selection     {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
+
+.hidedisplay    {
+    display: none;
+}
+
+
+/* .selection     {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+} */
 
 .select p   {
     font-size: 25px;

@@ -54,7 +54,7 @@ nav     {
     vertical-align: middle;
     white-space: nowrap;
     width: 100%;
-    /* margin-top:18px; */
+    margin-top:18px;
     }
 
     .loginbtn:after {
