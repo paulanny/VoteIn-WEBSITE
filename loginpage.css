@@ -182,6 +182,149 @@ input:focus {
   -webkit-filter: brightness(1.1);
 }
 
-/* .loginbtn:{
-  cursor: auto;
-} */
+
+@media (max-width:1200px){
+    form {
+        width: 35%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (max-width:1050px){
+    form {
+        width: 40%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (max-width:950px){
+    form {
+        width: 45%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (max-width:850px){
+    form {
+        width: 50%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (max-width:750px){
+    form {
+        width: 60%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (max-width:650px){
+    form {
+        width: 75%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (max-width:500px){
+    form {
+        width: 85%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (max-width:440px){
+    form {
+        width: 95%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .logogangan {
+        width: 130px;
+        margin: 20px auto 50px auto;
+    }
+}
+
+
+@media (max-width:380px){
+    form {
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        /* border: #009933 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .logogangan {
+        width: 100px;
+        margin: 20px auto 50px auto;
+    }
+}
