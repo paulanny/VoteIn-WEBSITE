@@ -166,6 +166,25 @@ body    {
     
 }
 
+@media(max-width:550px){
+    .votesession {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lines  {
+    width: 100%;
+}
+
+.postp  {
+    font-size: 40px;
+    padding: 15px;
+}
+
+}
+
 
 
 
