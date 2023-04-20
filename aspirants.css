@@ -87,7 +87,7 @@
 @media (max-width:600px){
     .person, .personb, .personc, .persond, 
 .persone, .personf, .persong    {
-    width: 90%;
+    width: 80%;
     padding: 20px;
     text-align: center;
     cursor: pointer;
