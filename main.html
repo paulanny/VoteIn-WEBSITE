@@ -11,9 +11,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lilita+One&display=swap" rel="stylesheet">
-        <script src="votein.js"  defer></script>
-        </head>
+        <script src="votein.js" defer></script>
+    </head>
     <body>
+        <div id="backdrop"></div>
         <nav>
             <div>
                 <img class="mainlogo" src="./images/voteinlogo.png" alt="logo">
@@ -28,7 +29,28 @@
             </div>
         </nav>
 
-        <section class="votesession" >
+        <div class="modal card" id="placevote-modal">
+            <h2 class="modal_title">Place Vote?</h2>
+            <p class="modal_content">Are you sure you want to place your Vote?</p>
+
+            <div class="modal_actions">
+                <button class="btn btn--passive">No</button>
+                <button class="btn btn--success">Yes</button>
+            </div>
+        </div>
+
+        <div class="modalgo card" id="placevote-modalsuccess">
+            <h2 class="modal_title">Vote Placed Successfully!</h2>
+            <p class="modal_content">Your Vote has been successfully submitted</p>
+
+            <div class="modal_actions">
+                <a href="index.html">
+                <button class="btn btn--passive">Ok</button>
+            </a>
+            </div>
+        </div>
+
+        <section class="votesession">
             <div class="lines">
                 <div class="firstline"></div>
                 <div class="secondline"></div>
@@ -69,7 +91,7 @@
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select hidedisplay" >
+                <div class="select hidedisplay">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
@@ -113,39 +135,39 @@
             class="aspirants">
             <!-- <input type="checkbox"> -->
             <div
-                class="personone2">
+                class="personb">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayb">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone2">
+                class="personb">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayb">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone2">
+                class="personb">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayb">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
@@ -176,39 +198,39 @@
             class="aspirants">
             <!-- <input type="checkbox"> -->
             <div
-                class="personone3">
+                class="personc">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayc">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone3">
+                class="personc">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select  hidedisplayc">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="personc">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select  hidedisplayc">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
@@ -216,7 +238,7 @@
 
 
         </section>
-   
+
 
         <section class="votesession">
             <div class="lines">
@@ -240,39 +262,39 @@
             class="aspirants">
             <!-- <input type="checkbox"> -->
             <div
-                class="personone">
+                class="persond">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayd">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="persond">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayd">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="persond">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayd">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
@@ -280,7 +302,7 @@
 
 
         </section>
-   
+
 
         <section class="votesession">
             <div class="lines">
@@ -304,39 +326,39 @@
             class="aspirants">
             <!-- <input type="checkbox"> -->
             <div
-                class="personone">
+                class="persone">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplaye">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="persone">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplaye">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="persone">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplaye">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
@@ -344,7 +366,7 @@
 
 
         </section>
-   
+
 
         <section class="votesession">
             <div class="lines">
@@ -368,39 +390,39 @@
             class="aspirants">
             <!-- <input type="checkbox"> -->
             <div
-                class="personone">
+                class="personf">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayf">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="personf">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayf">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="personf">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayf">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
@@ -408,7 +430,7 @@
 
 
         </section>
-   
+
 
         <section class="votesession">
             <div class="lines">
@@ -432,56 +454,55 @@
             class="aspirants">
             <!-- <input type="checkbox"> -->
             <div
-                class="personone">
+                class="persong">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayg">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <div
-                class="personone">
+                class="persong">
                 <!-- <div> -->
                 <img
                 class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
                 <!-- </div> -->
                 <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
+                <div class="select hidedisplayg">
                     <img src="./images/selectimg.svg" alt="tickselect">
                     <p>SELECTED</p>
                 </div>
             </div>
 
             <!-- <div
-                class="personone">
-                
-                <img
-                class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
-                
-                <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
-                <div class="select">
-                    <img src="./images/selectimg.svg" alt="tickselect">
-                    <p>SELECTED</p>
-                </div>
-            </div> -->
+                            class="personone">
+                            
+                            <img
+                            class="aspirantsimg" src="./images/debby.JPG" alt="aspirants">
+                            
+                            <p class="aspirantsname">Animashaun Deborah Opeyemi</p>
+                            <div class="select">
+                                <img src="./images/selectimg.svg" alt="tickselect">
+                                <p>SELECTED</p>
+                            </div>
+                        </div> -->
 
 
         </section>
-   
+
 
         <div class="labin2">
 
-            <button class="loginbtn">
-                <a href="#">Submit
+            <button class="loginbtn" id="pvoteBtn">
+                <a href="#">Submit Vote
                 </a>
             </button>
         </div>
-   
 
 
     </body>

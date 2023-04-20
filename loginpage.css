@@ -69,7 +69,7 @@ input  {
         border-bottom-style: hidden;
         background-color:  #ecfaf1;
         border-radius: 8px;
-        font-family: 'Moby Andrfont' sans-serif;
+        /* font-family: 'Moby Andrfont' sans-serif; */
 }
 
 input:focus {
