@@ -175,7 +175,7 @@ nav     {
     vertical-align: middle;
     white-space: nowrap;
     width: 100%;
-    margin-top:18px;
+    /* margin-top:18px; */
     }
 
     .loginbtn:after {
@@ -221,4 +221,16 @@ nav     {
     justify-content: center;
     align-items: center;
     
+}
+
+
+@media(max-width:950px) {
+    .labin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 10px auto 10px auto; */
+        width: 25%;
+    }
 }

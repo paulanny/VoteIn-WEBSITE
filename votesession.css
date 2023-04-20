@@ -144,3 +144,28 @@ body    {
    
 }
 
+
+@media (max-width:1300px){
+    .postp  {
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width:950px){
+    .postp  {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:720px){
+    .postp  {
+        font-size: 30px;
+    }
+
+    
+}
+
+
+
+
