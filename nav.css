@@ -234,6 +234,15 @@ nav     {
         /* margin: 10px auto 10px auto; */
         width: 25%;
     }
+
+    .modal, .modalgo  {
+        position: fixed;
+        z-index: 100;
+        width: 60%;
+        top: 30vh;
+        left: 20%;
+        display: none;
+    }
 }
 
 @media(max-width:650px){
@@ -254,12 +263,23 @@ nav     {
         justify-content: center;
         align-items: center;
     }
+
+    .modal, .modalgo  {
+        position: fixed;
+        z-index: 100;
+        width: 70%;
+        top: 30vh;
+        left: 15%;
+        display: none;
+    }
 }
 
 @media(max-width:550px){
     .mainlogo {
         width: 120px;
     }
+
+    
 
     .labin {
         display: flex;
@@ -285,11 +305,20 @@ nav     {
         width: 40%;
     }
 
+    .modal, .modalgo  {
+        position: fixed;
+        z-index: 100;
+        width: 80%;
+        top: 30vh;
+        left: 10%;
+        display: none;
+    }
+
     nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 24px 49px;
+        padding: 24px 15px;
         align-items: center;
     }
 }

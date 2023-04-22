@@ -11,6 +11,10 @@
     /* font-family: 'Moby Andrfont' !important; */
 }
 
+body  {
+    height: 100vh;
+}
+
 .passshow   {
     display: flex;
     /* justify-content: center; */

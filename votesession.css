@@ -186,5 +186,10 @@ body    {
 }
 
 
-
+@media(max-width:430px){
+    .postp  {
+        font-size: 30px;
+        padding: 15px;
+    }
+}
 
