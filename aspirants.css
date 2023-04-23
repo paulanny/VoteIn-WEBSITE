@@ -28,9 +28,17 @@
 
 
 .aspirantsimg      {
-    max-width: 100%;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
     border-radius: 15px;
     border: 4px solid #009933;
+}
+
+.aspirantsimg img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .aspirantsname  {
@@ -88,7 +96,7 @@ footer p {
     color: #009933;
 }
 
-@media (max-width:745px){
+@media (max-width:1200px){
     .person, .personb, .personc, .persond, 
 .persone, .personf, .persong    {
     width: 45%;
