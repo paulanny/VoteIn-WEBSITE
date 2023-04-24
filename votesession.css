@@ -156,12 +156,14 @@ body    {
 @media (max-width:950px){
     .postp  {
         font-size: 40px;
+        text-align: center;
     }
 }
 
 @media (max-width:720px){
     .postp  {
         font-size: 30px;
+        text-align: center;
     }
 
     
@@ -182,6 +184,7 @@ body    {
 .postp  {
     font-size: 40px;
     padding: 15px;
+    text-align: center;
 }
 
 }
@@ -189,8 +192,9 @@ body    {
 
 @media(max-width:430px){
     .postp  {
-        font-size: 30px;
+        font-size: 40px;
         padding: 15px;
+        text-align: center;
     }
 }
 

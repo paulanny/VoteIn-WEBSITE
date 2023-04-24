@@ -5,6 +5,7 @@ const persond = document.getElementsByClassName("persond");
 const persone = document.getElementsByClassName("persone");
 const personf = document.getElementsByClassName("personf");
 const persong = document.getElementsByClassName("persong");
+const borderChange = document.getElementsByClassName('.border');
 const selectedElement = document.querySelectorAll(".hidedisplay");
 const selectedElementb = document.querySelectorAll(".hidedisplayb");
 const selectedElementc = document.querySelectorAll(".hidedisplayc");
@@ -31,7 +32,6 @@ Votesuccess = () => {
   // successOk.addEventListener('click', )
 };
 
-
 function submitVoteHandler() {
   placeVoteModal.classList.add("visible");
   toggleBackDrop();
@@ -46,17 +46,24 @@ for (let i = 0; i < persons.length; i++) {
   persons[i].addEventListener("click", () => {
     for (let j = 0; j < selectedElement.length; j++) {
       selectedElement[j].classList.add("hidedisplay");
+    //  if(persons[i].style.border = "1px solid red") {
+    //   persons[i].style.border = "3px solid red";
+    //  }
+
+    //  else {persons[i].style.border = "1px solid red"};
+      // persons[i].style.border = '3px solid red';
+      // persons[i].classList.add("person");
       // if(persons[i].classList === 'person'){
-        // persons[i].classList.remove('person');
+      // persons[i].classList.remove('person');
       // }
-      
     }
 
     console.log("event fired");
 
     persons[i].children[2].classList.remove("hidedisplay");
-    persons[i].classList.add === 'border';
-  });
+    console.log(persons[i]);
+    // persons[i].style.border = "1px solid red";
+    });
 }
 
 for (let i = 0; i < personb.length; i++) {
