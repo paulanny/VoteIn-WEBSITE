@@ -46,11 +46,16 @@ for (let i = 0; i < persons.length; i++) {
   persons[i].addEventListener("click", () => {
     for (let j = 0; j < selectedElement.length; j++) {
       selectedElement[j].classList.add("hidedisplay");
+      // if(persons[i].classList === 'person'){
+        // persons[i].classList.remove('person');
+      // }
+      
     }
 
     console.log("event fired");
 
     persons[i].children[2].classList.remove("hidedisplay");
+    persons[i].classList.add === 'border';
   });
 }
 

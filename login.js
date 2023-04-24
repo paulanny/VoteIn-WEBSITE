@@ -35,10 +35,10 @@ else {
 }
 
 
-function keyup(){
-    Errorp.style.display = 'none';
-        // Errorp.style.color = 'red';
-}
+// function keyup(){
+//     Errorp.style.display = 'none';
+//         // Errorp.style.color = 'red';
+// }
 Submit.addEventListener("click", Validate);
 // Submit.addEventListener("click", keyup);
 

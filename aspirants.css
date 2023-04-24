@@ -45,13 +45,14 @@
     font-size: 30px;
     color: rgb(156, 110, 11);
     font-family:'Lilita One', cursive;
+    margin: 40px auto;
 }
 
 .select     {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin: 30px auto;
 }
 
 .hidedisplay, .hidedisplayb, .hidedisplayc,
