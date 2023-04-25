@@ -39,6 +39,7 @@ function Validate(event){
         Errorp.style.display = 'block';
         Errorp.style.color = 'red';
         // return;
+        event.preventDefault();
     }
     
     if (password.value.trim().length === 0){
