@@ -15,25 +15,42 @@ togglePassword.addEventListener("click", function () {
     this.classList.toggle("bi-eye");
 });
 
+// function Validate(event){
+//     const MatricInput = document.getElementById('matricno').value;
+//     const regex = /^[1-2][0-9][0][6][5][1][0]\d{2}$/;
+//     if(regex.test(MatricInput) && password.value.trim() !== ''){
+//         return true;
+// }
+
+// else {
+//        Errorp.style.display = 'block';
+//         Errorp.style.color = 'red';
+//         Errorps.style.display = 'block';
+//         Errorps.style.color = 'red';
+//         event.preventDefault();
+       
+// }
+// }
+
 function Validate(event){
     const MatricInput = document.getElementById('matricno').value;
     const regex = /^[1-2][0-9][0][6][5][1][0]\d{2}$/;
-    if(regex.test(MatricInput) && password.value.trim() !== ''){
-        return true;
-}
-
-else {
-       Errorp.style.display = 'block';
+    if(!regex.test(MatricInput)){
+        Errorp.style.display = 'block';
         Errorp.style.color = 'red';
+        // return;
+    }
+    
+    if (password.value.trim().length === 0){
         Errorps.style.display = 'block';
         Errorps.style.color = 'red';
+        // return;
         event.preventDefault();
-       
+ }
+
+//  const Login = {MatricNo:MatricInput,
+// Passwords:password};
 }
-
-
-}
-
 
 // function keyup(){
 //     Errorp.style.display = 'none';
